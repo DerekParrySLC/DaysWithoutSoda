@@ -1,0 +1,24 @@
+
+body {
+	color: white;
+	background-color: #52b3d9;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Indie Flower', cursive;
+}
+
+button {
+	background-color: white;
+	border: none;
+	color: #52b3d9;
+	padding: 15px 32px;
+}
+
+a {
+	color: white;
+}
+
+button:hover,
+code:hover {
+	cursor: pointer;
+}
