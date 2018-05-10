@@ -19,6 +19,7 @@ a {
 }
 
 button:hover,
-code:hover {
+code:hover,
+pre:hover {
 	cursor: pointer;
 }
