@@ -19,7 +19,20 @@ a {
 }
 
 button:hover,
-code:hover,
-pre:hover {
+div:hover {
 	cursor: pointer;
 }
+
+div {
+	font-family: monospace;
+	color: rgba(255,255,255,0.6);
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+}
+

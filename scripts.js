@@ -1,14 +1,11 @@
 
-var saveToPhone = document.getElementById("save-to-phone");
+var instructions = document.getElementById("instructions");
+instructions.style.display = "none";
 
-var toggle = true;
-
-function displayInstructions() {
-	if (toggle) {
-		saveToPhone.innerHTML = document.getElementById("instructions").innerHTML;
-		toggle = false;
+function toggleInstructions() {
+	if (instructions.style.display === "none") {
+		instructions.style.display = "initial";
 	} else {
-		saveToPhone.innerHTML = "<code>save to phone</code>";
-		toggle = true;
+		instructions.style.display = "none";
 	}
 }

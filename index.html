@@ -1,40 +1,38 @@
 <html>
 	
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Days Without Soda</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-		<title>No Soda Habit Tracker</title>
-
 	</head>
 	
 	<body>
-
-		<div>
-			<h1>Number of days since my last soda</h1>
-			<h2>3</h2>
-			<button>I went another day without soda!</button>
-      <br><br>
-			<button>reset</button>
-			<p>Made with &#10084; by <a href="https://www.facebook.com/profile.php?id=620402436">Derek Parry</a></p>
-      <div id="save-to-phone" onclick="displayInstructions()">
-      	<code>save to phone</code>
-      </div>
-      
-		</div>
-
+			
+		<h1>Number of days since my last soda</h1>
+		<h2>3</h2>
+		<button>I went another day without soda!</button>
+    	<br><br>
+		<button>reset</button>
+		<p>Made with &#10084; by <a href="#">Code180</a></p>
+	    <div onclick="toggleInstructions()">
+	    	<p>save to phone</p>
+	    	<div id="instructions">
+	    		<p class="underline">iPhone</p>
+	    		<p>test</p>
+	    		<ul>
+	    			<li>1. Click the share icon at the bottom of your screen</li>
+	    			<li>2. Scroll to the right and click "Add to Home Screen</li>
+	    		</ul>
+	    		<p class="underline">Android</p>
+	    		<ul>
+	    			<li>1. Click on the settings icon in the top right of your screen</li>
+	    			<li>2. Click on "Add to Home screen" and give the app a name</li>
+	    		</ul>
+	    	</div>
+	    </div>
+	      
 		<script type="text/javascript" src="scripts.js"></script>
-
-		<script id="instructions" type="text/html">
-<pre>iPHONE
-1. Click the share icon at the bottom of your screen
-2. Scroll to the right and click "Add to Home Screen"
-
-ANDROID
-1. Click on the settings icon in the top right of your screen
-2. Click "Add to Home screen"
-</pre>
-		</script>
 
 	</body>
 
