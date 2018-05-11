@@ -1,4 +1,30 @@
 
+//Habit Tracker App
+
+if(localStorage.getItem("count") == null) {
+	localStorage.setItem("count", 0)
+}
+
+//update count
+function update() {
+	document.getElementById("count").innerHTML = localStorage.getItem("count");
+}
+
+update();
+
+//add one to count
+function plusOne() {
+	localStorage.setItem("count", (Number(localStorage.getItem("count")) + 1));
+	update();
+}
+
+//reset count
+function reset() {
+	localStorage.setItem("count",0);
+	update();
+}
+
+// save to phone instructions
 var instructions = document.getElementById("instructions");
 instructions.style.display = "none";
 
