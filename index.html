@@ -1,20 +1,21 @@
 <html>
 	
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- set web app size to size of device -->
 		<title>Days Without Soda</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="my-styles.css">
     	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	</head>
 	
 	<body>
 			
-		<h1>Number of days since my last soda</h1>
+		<h1>Number of Days Since My Last Soda</h1>
 		<h2 id="count">3</h2>
-		<button onclick="plusOne()">I went another day without soda!</button>
+		<button id="plus-one" onclick="plusOne()">I went another day without a soda!</button>
     	<br><br>
-		<button onclick="reset()">reset</button>
-		<p>Made with &#10084; by <a href="#">Code180</a></p>
+		<button id="reset" onclick="reset()">reset</button>
+		<p>Made with &#10084; by <a href="https://www.code180.org">Code180</a></p>
 	    <div onclick="toggleInstructions()">
 	    	<p>save to phone</p>
 	    	<div id="instructions">
@@ -31,7 +32,7 @@
 	    	</div>
 	    </div>
 	      
-		<script type="text/javascript" src="scripts.js"></script>
+		<script type="text/javascript" src="my-scripts.js"></script>
 
 	</body>
 
